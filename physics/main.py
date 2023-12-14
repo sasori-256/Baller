@@ -41,10 +41,10 @@ def main():
     left_ground = pygame.Rect(0, 0, config.GROUND_HEIGHT, config.SCREEN_HEIGHT - config.MENU_BAR_HEIGHT)
 
     # 右枠
-    right_ground = pygame.Rect(config.SCREEN_WIDTH - config.GROUND_HEIGHT, 0, config.GROUND_HEIGHT, chttps://pythonprogramming.net/pause-game-pygame/https://pythonprogramming.net/pause-game-pygame/onfig.SCREEN_HEIGHT - config.MENU_BAR_HEIGHT)
+    right_ground = pygame.Rect(config.SCREEN_WIDTH - config.GROUND_HEIGHT, 0, config.GROUND_HEIGHT, config.SCREEN_HEIGHT - config.MENU_BAR_HEIGHT)
 
     # メニューバーを作成
-    menu_bar = create_menu_bar(screen, font, config.SCREEN_WIDTH, config.SCREEN_HEIGHT, config.MENU_BAR_HEIGHT, config.MENU_BAR_COLOR, config.button_color, config.gravity_https://pythonprogramming.net/pause-game-pygame/acceleration)
+    menu_bar = create_menu_bar(screen, font, config.SCREEN_WIDTH, config.SCREEN_HEIGHT, config.MENU_BAR_HEIGHT, config.MENU_BAR_COLOR, config.button_color, config.gravity_acceleration)
 
     # ボールを生成
     for i in range(config.balls_number):
